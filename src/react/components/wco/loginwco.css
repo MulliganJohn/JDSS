@@ -1,0 +1,39 @@
+.login-close-button:hover
+{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.login-minimize-button:hover{
+    cursor: pointer;
+    background-color: rgba(49, 49, 49, 0.60);
+}
+
+.login-close-button,
+.login-minimize-button{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    transition: background-color 0.15s ease;
+    -webkit-app-region: no-drag;
+}
+
+.JDSS_LoginWCO img{
+    width: 13px;
+    height: 13px;
+    -webkit-app-region: no-drag;
+}
+
+.JDSS_LoginWCO{
+    display: flex;
+    flex-direction: row;
+    -webkit-app-region: no-drag;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 25;
+}

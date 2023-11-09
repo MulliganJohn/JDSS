@@ -1,0 +1,47 @@
+.JDSS_ContextMenu{
+    position: absolute;
+}
+
+.JDSS_ContextMenu_List{
+    background-color: rgb(22, 22, 29);
+    border-radius: 5px;
+    padding: 4px;
+    margin: 0px;
+}
+
+.JDSS_ContextMenu_List span{
+    color: white;
+    font-size: 14px;
+}
+
+.JDSS_ContextMenu_List li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.JDSS_ContextMenu_List li:not(:first-child){
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.JDSS_ContextMenu_List li:not(:first-child):hover {
+    background-color: rgba(49, 49, 49, 0.60);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.JDSS_ContextMenu_List img {
+    width: 14px;
+    height: 14px;
+    padding-right: 10px;
+}

@@ -1,0 +1,53 @@
+.JDSS_Navbar{
+    background-color: rgb(22, 22, 29);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 20vw;
+}
+
+.JDSS_Navbar_logo_container > :first-child{
+    max-height: 30px;
+    width: auto;
+}
+.JDSS_Navbar_logo_container > :last-child{
+    max-height: 20px;
+    width: auto;
+}
+.JDSS_Navbar_logo_container{
+    max-width: 100%;
+    height: 10vh;
+    display: flex;
+    -webkit-app-region: drag;
+    gap: 10px;
+    padding-left: 15px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.JDSS_Navbar_Button{
+    text-align: left;
+    height: 3rem;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.JDSS_Navbar_Button img{
+    width: 14px;
+    height: 14px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.JDSS_Navbar_Button:hover{
+    background-color: rgba(100, 100, 100, .1);
+    cursor: pointer;
+}

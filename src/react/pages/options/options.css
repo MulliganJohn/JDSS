@@ -1,0 +1,131 @@
+.JDSS_Options_Page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.JDSS_Options_Page_Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.JDSS_Options_Page_Body{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.JDSS_Options_Page_Header h1{
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.JDSS_Options_Page_Option {
+    line-height: 5px;
+}
+
+.JDSS_Options_Page_Option h1{
+    font-size: 14px;
+}
+.JDSS_Options_Page_Option p{
+    font-size: 12px;
+}
+
+.JDSS_Options_Page_Import {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.JDSS_Options_Page_Import_Button{
+    background-color: rgb(22, 22, 29);
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: none;
+}
+.JDSS_Options_Page_Import_Button:not(:disabled):hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.JDSS_Options_Page_Import_Button:disabled{
+    border: none;
+    outline: none;
+    cursor: not-allowed;
+}
+
+.JDSS_Options_Page_Import input{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 400px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    padding-left: 15px;
+    font-weight: 600;
+    box-shadow: inset 0 0 3px rgba(22, 22, 29, 0.4);
+}
+
+.JDSS_Options_Page_Import input:disabled{
+    cursor: not-allowed;
+    color: black;
+    background-color: rgb(173, 173, 173);
+}
+
+.JDSS_Options_Page_Offset{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.JDSS_Options_Page_Import_Button_Loading{
+    align-self: center;
+    justify-self: center;
+    width: 25px;
+    height: 25px;
+    z-index: 30;
+}
+
+.JDSS_Options_Page_Offset input{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25px;
+    width: 50px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+    box-shadow: inset 0 0 3px rgba(22, 22, 29, 0.4);
+}
+
+.SaveChanges{
+    position: fixed;
+    left: 295px;
+    bottom: -50px;
+    transition: transform 0.35s;
+}
+
+.SaveChanges.visible{
+    transform: translateY(-70px);
+}

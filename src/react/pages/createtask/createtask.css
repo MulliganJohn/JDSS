@@ -1,0 +1,188 @@
+.JDSS_CreateTask_Page{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(22, 22, 29);
+    height: 100%;
+}
+
+.JDSS_CreateTask_Page_Header > :first-child{
+    max-height: 45px;
+    width: auto;
+}
+.JDSS_CreateTask_Page_Header > :last-child{
+    max-height: 35px;
+    width: auto;
+}
+.JDSS_CreateTask_Page_Header{
+    background-color: rgb(22, 22, 29);
+    max-width: 100%;
+    height: 25vh;
+    min-height: 25vh;
+    display: flex;
+    -webkit-app-region: drag;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.JDSS_CreateTask_Page_Body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    height: 120px;
+}
+
+.JDSS_Input {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.JDSS_Input:disabled{
+    cursor: not-allowed;
+    color: black;
+    background-color: white;
+    opacity: 0.5;
+}
+.JDSS_Input::placeholder{
+    font-weight: 400;
+}
+
+.JDSS_CreateTask_Page_Inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.JDSS_Button{
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(22, 22, 29);
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 20px;
+}
+
+.Loading{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.JDSS_Button:not(.Loading):hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.JDSS_CreateTask_WCO{
+    width: 100%;
+    height: 10vh;
+    min-height: 10vh;
+    background-color: rgb(22, 22, 29);
+    -webkit-app-region: drag;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.JDSS_CreateTask_Page_Gif{
+    position: absolute;
+    bottom: 35px;
+    transform: translateY(50%);
+    left: 15px;
+    width: 35px;
+    height: 35px;
+    z-index: 30;
+}
+
+.JDSS_CreateTask_Page_Invalid{
+    font-size: 12px;
+    color: #ff004d;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 58px;
+    margin: 0px;
+    width: 210px;
+    text-align: center;
+}
+
+.JDSS_CreateTask_AccountHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.JDSS_CreateTask_AccountHeader img{
+    width: 25px;
+    height: 25px;
+}
+
+.JDSS_CreateTask_AccountHeader p{
+    margin: 0;
+}
+
+.JDSS_CreateTask_Page_Confirmation_Body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-evenly;
+    height: 120px;
+}
+
+.JDSS_CreateTask_Page_Confirmation_Body p{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+.JDSS_CreateTask_Page_Confirmation_Buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.JDSS_Small_Button{
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(22, 22, 29);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 20px;
+}
+
+.JDSS_Small_Button:not(.Loading):hover {
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+
+.Cancel{
+    left: 20px;
+    background-color:#FF6767;
+}
+
+.Accept{
+    left: 130px;
+}

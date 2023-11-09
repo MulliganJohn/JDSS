@@ -1,0 +1,39 @@
+.JDSS_SaveChanges{
+    display: flex;
+    width: 500px;
+    height: 38px;
+    background-color: rgb(22, 22, 29);
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.JDSS_SaveChanges button{
+    height: 28px;
+    width: 110px;
+    border: none;
+    align-self: center;
+    border-radius: 4px;
+    color: white;
+    background-color: #2a9150;
+    transition: background-color 0.1s;
+}
+
+.JDSS_SaveChanges p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.JDSS_SaveChanges input:hover{
+    text-decoration: underline;
+}
+
+.JDSS_SaveChanges button:hover{
+    background-color: #217240;
+    cursor: pointer;
+}

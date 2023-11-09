@@ -1,0 +1,48 @@
+.JDSS_Tasks_Page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.JDSS_Tasks_Page_Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.JDSS_Tasks_Page_Body{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    height: 100%;
+}
+
+.JDSS_Tasks_Page_Header h1{
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.JDSS_Task_Page_CreateTask_Button{
+    background-color: #16161d;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+/*     border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px; */
+    border: none;
+    outline: none;
+}
+
+.JDSS_Task_Page_CreateTask_Button:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}

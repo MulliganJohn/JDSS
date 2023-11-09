@@ -1,0 +1,14 @@
+.JDSS_App-container{
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow: none;
+}
+
+.JDSS_App-container_body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}

@@ -1,0 +1,71 @@
+.JDSS_AccountTable{
+    display: flex;
+    width: 100%;
+    height: 391px;
+    max-height: 391px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(168,168,168,0.31);
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(168,168,168,0.31);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(168,168,168,0.31);
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+.JDSS_AccountTable table {
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.JDSS_AccountTable th,
+.JDSS_AccountTable td {
+    padding: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.JDSS_AccountTable th {
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.JDSS_AccountTable tr {
+    height: 1px;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.JDSS_AccountTable tr:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.JDSS_AccountTable th:nth-child(1),
+.JDSS_AccountTable td:nth-child(1) {
+    box-sizing: border-box;
+  width: 175px;
+}
+/* Set width for the second column */
+.JDSS_AccountTable th:nth-child(2),
+.JDSS_AccountTable td:nth-child(2) {
+    box-sizing: border-box;
+  width: 150px;
+}
+/* Set width for the third column */
+.JDSS_AccountTable th:nth-child(3),
+.JDSS_AccountTable td:nth-child(3) {
+    box-sizing: border-box;
+  width: 100px;
+}
+.JDSS_AccountTable th:nth-child(4),
+.JDSS_AccountTable td:nth-child(4) {
+    box-sizing: border-box;
+  width: 100px;
+}
+.JDSS_AccountTable th:nth-child(5),
+.JDSS_AccountTable td:nth-child(5) {
+    box-sizing: border-box;
+  width: 100px;
+}
+.JDSS_AccountTable th:nth-child(6),
+.JDSS_AccountTable td:nth-child(6) {
+    box-sizing: border-box;
+  width: 106px;
+}
