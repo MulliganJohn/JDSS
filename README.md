@@ -1,4 +1,10 @@
-﻿# JDSS
+# Repository Archival
+### Due to Riot's transition from summoner names to Riot ID's this tool is no longer beneficial. See the relavant article here:
+                                            https://www.riotgames.com/en/news/summoner-name-riot-ID
+ 
+ 
+ 
+ # JDSS
 
 JDSS is a program that allows the user to change an accounts League of Legends summoner name to a newly decayed summoner name.
 
